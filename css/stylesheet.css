@@ -13,7 +13,8 @@ font-family: 'Roboto', sans-serif;
 /* ESTILOS BOOTSTRAP*/
 .navbar-inverse {
   background: transparent;
-  border-style: none; }
+  border-style: none;
+  padding-bottom: 43px; }
 
 .navbar-nav {
   text-align: center; }
@@ -25,13 +26,32 @@ font-family: 'Roboto', sans-serif;
   color: black;
   font-weight: 700; }
 
+.navbar-inverse .navbar-nav > li:hover, .navbar-inverse .navbar-nav > .active {
+  border-bottom: 3px solid black; }
+
+.navbar-nav {
+  display: table;
+  float: none;
+  margin: 0 auto;
+  table-layout: fixed;
+  font-size: 1.25em; }
+
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
   color: black;
-  background-color: transparent; }
+  background-color: transparent;
+  font-weight: bold; }
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #000; }
 
 /* ESTILOS PROPIOS*/
 header {
   text-align: center;
-  background: #F5F5F5; }
+  background: #F5F5F5;
+  box-shadow: inset 0 0 64px rgba(0, 0, 0, 0.5); }
+
+.row-logo {
+  padding-top: 51px;
+  padding-bottom: 27px; }
 
 /*# sourceMappingURL=stylesheet.css.map */
