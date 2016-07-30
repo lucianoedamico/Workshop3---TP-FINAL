@@ -1,15 +1,4 @@
-@import "https://fonts.googleapis.com/css?family=Dosis|Montserrat:400,700|Muli|Open+Sans:400,700|Playfair+Display|Raleway|Roboto:400,700";
-/*
-
-font-family: 'Open Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Muli', sans-serif;
-font-family: 'Dosis', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-*/
+@import "https://fonts.googleapis.com/css?family=Roboto+Slab:400,700";
 /* ESTILOS BOOTSTRAP*/
 .navbar-inverse {
   background: transparent;
@@ -30,6 +19,10 @@ font-family: 'Roboto', sans-serif;
   background-color: transparent; }
 
 /* ESTILOS PROPIOS*/
+.titulos h2, .nosotros h2 {
+  text-transform: uppercase;
+  font-family: "Roboto slab"; }
+
 header {
   text-align: center;
   background: #F5F5F5; }

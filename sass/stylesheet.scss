@@ -1,17 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Dosis|Montserrat:400,700|Muli|Open+Sans:400,700|Playfair+Display|Raleway|Roboto:400,700';
-
-/*
-
-font-family: 'Open Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Muli', sans-serif;
-font-family: 'Dosis', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-*/
-
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab:400,700';
 
 $color-header:#F5F5F5;
 /* ESTILOS BOOTSTRAP*/
@@ -40,8 +27,26 @@ $color-header:#F5F5F5;
 }
 
 /* ESTILOS PROPIOS*/
+$fuente-titulos:"Roboto slab";
+
+
+.titulos{
+	h2{
+		text-transform: uppercase;
+		font-family: $fuente-titulos;
+	}
+}
 
 header{
 	text-align: center;;
 	background:$color-header ;
+
 }
+
+.nosotros{
+	@extend .titulos;
+	p{
+		
+	}
+}
+
